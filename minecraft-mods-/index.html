@@ -2,230 +2,175 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft Mods Download</title>
 
     <style>
         body {
-            background: #0a0a0a;
+            background-color: #111;
+            color: #fff;
             font-family: Arial, sans-serif;
             margin: 0;
-            color: #e0e0e0;
+            padding: 0;
         }
-        header {
+
+        h1 {
             text-align: center;
-            padding: 25px;
-            background: #111;
-            border-bottom: 2px solid #00ff88;
-            font-size: 32px;
-            font-weight: bold;
+            padding: 20px;
+            background-color: #1a1a1a;
+            margin: 0;
+            font-size: 28px;
         }
+
         .container {
-            max-width: 1100px;
+            max-width: 800px;
             margin: auto;
-            padding: 25px;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: 20px;
+            padding: 20px;
         }
-        .card {
-            background: #141414;
-            border: 2px solid #00ff88;
-            border-radius: 14px;
+
+        .mod {
+            background-color: #1b1b1b;
+            margin: 15px 0;
             padding: 15px;
-            text-align: center;
-            transition: 0.25s;
-        }
-        .card:hover {
-            transform: scale(1.03);
-            box-shadow: 0 0 15px #00ff88;
-        }
-        .card img {
-            width: 110px;
-            height: 110px;
-            margin-bottom: 10px;
-        }
-        .title {
-            font-size: 20px;
-            margin-bottom: 8px;
-            color: #00ff88;
-        }
-        .desc {
-            font-size: 14px;
-            opacity: 0.8;
-            margin-bottom: 12px;
-        }
-        .btn {
-            display: block;
-            background: #00ff88;
-            color: #000;
-            padding: 10px;
-            border-radius: 8px;
-            font-weight: bold;
-            text-decoration: none;
+            border-radius: 10px;
+            border: 1px solid #333;
             transition: 0.2s;
         }
-        .btn:hover {
-            background: #00ffaa;
+
+        .mod:hover {
+            transform: scale(1.02);
+            border-color: #4caf50;
+        }
+
+        .mod-title {
+            font-size: 20px;
+            color: #4caf50;
+            margin-bottom: 5px;
+        }
+
+        .mod-desc {
+            color: #ccc;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 8px 14px;
+            background-color: #4caf50;
+            color: black;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .download-btn:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
-
 <body>
 
-<header>📦 Minecraft Mods Collection</header>
+<h1>📦 Minecraft Mods Download</h1>
 
 <div class="container">
 
-    <!-- === MacroKeybinds === -->
-    <div class="card">
-        <img src="https://i.imgur.com/KqiVfU3.png">
-        <div class="title">MacroKeybinds</div>
-        <div class="desc">Создание макросов и биндов на клавиши.</div>
-        <a class="btn" href="1.21-MacroKeybinds-fabric-1.3.1.jar" download>Скачать</a>
+    <!-- МОД 1 -->
+    <div class="mod">
+        <div class="mod-title">MacroKeybinds</div>
+        <div class="mod-desc">Позволяет назначать макросы на кнопки.</div>
+        <a class="download-btn" href="1.21-MacroKeybinds-fabric-1.3.1.jar" download>Скачать</a>
     </div>
 
-    <!-- === CommandKeys === -->
-    <div class="card">
-        <img src="https://i.imgur.com/TTBL9eR.png">
-        <div class="title">CommandKeys</div>
-        <div class="desc">Команды Minecraft на горячие клавиши.</div>
-        <a class="btn" href="CommandKeys-Fabric-1.21-2.0.0.jar" download>Скачать</a>
+    <!-- МОД 2 -->
+    <div class="mod">
+        <div class="mod-title">CommandKeys</div>
+        <div class="mod-desc">Выполнение команд по нажатию клавиши.</div>
+        <a class="download-btn" href="CommandKeys-Fabric-1.21-2.0.0.jar" download>Скачать</a>
     </div>
 
-    <!-- === IAS === -->
-    <div class="card">
-        <img src="https://i.imgur.com/ihUxC57.png">
-        <div class="title">IAS</div>
-        <div class="desc">Инструменты для отображения брони и статусов.</div>
-        <a class="btn" href="IAS-Fabric-1.21-9.0.1.jar" download>Скачать</a>
+    <!-- МОД 3 -->
+    <div class="mod">
+        <div class="mod-title">IAS (Inventory Auto Sorter)</div>
+        <div class="mod-desc">Автоматическая сортировка инвентаря.</div>
+        <a class="download-btn" href="IAS-Fabric-1.21-9.0.1.jar" download>Скачать</a>
     </div>
 
-    <!-- === OKZoomer === -->
-    <div class="card">
-        <img src="https://i.imgur.com/D9I6UuK.png">
-        <div class="title">OKZoomer</div>
-        <div class="desc">Удобный зум как в Optifine.</div>
-        <a class="btn" href="OkZoomer-Fabric-9.3.0.jar" download>Скачать</a>
+    <!-- МОД 4 -->
+    <div class="mod">
+        <div class="mod-title">OkZoomer</div>
+        <div class="mod-desc">Зум как в OptiFine.</div>
+        <a class="download-btn" href="OkZoomer-Fabric-9.3.0.jar" download>Скачать</a>
     </div>
 
-    <!-- === ViaFabricPlus === -->
-    <div class="card">
-        <img src="https://i.imgur.com/5Pm9Kb0.png">
-        <div class="title">ViaFabricPlus</div>
-        <div class="desc">Позволяет заходить на сервера разных версий.</div>
-        <a class="btn" href="ViaFabricPlus-3.4.8.jar" download>Скачать</a>
+    <!-- МОД 5 -->
+    <div class="mod">
+        <div class="mod-title">ViaFabricPlus</div>
+        <div class="mod-desc">Позволяет заходить на серверы других версий.</div>
+        <a class="download-btn" href="ViaFabricPlus-3.4.8.jar" download>Скачать</a>
     </div>
 
-    <!-- === ViaVersion === -->
-    <div class="card">
-        <img src="https://i.imgur.com/5Pm9Kb0.png">
-        <div class="title">ViaVersion</div>
-        <div class="desc">Кросс-версионная совместимость серверов.</div>
-        <a class="btn" href="ViaVersion-5.0.4-SNAPSHOT (1).jar" download>Скачать</a>
+    <!-- МОД 6 -->
+    <div class="mod">
+        <div class="mod-title">ViaVersion</div>
+        <div class="mod-desc">Обновляет сетевой протокол.</div>
+        <a class="download-btn" href="ViaVersion-5.0.4-SNAPSHOT (1).jar" download>Скачать</a>
     </div>
 
-    <!-- === Architectury === -->
-    <div class="card">
-        <img src="https://i.imgur.com/C8qzETf.png">
-        <div class="title">Architectury API</div>
-        <div class="desc">Библиотека для работы многих Fabric/Forge модов.</div>
-        <a class="btn" href="architectury-13.0.2-fabric.jar" download>Скачать</a>
+    <!-- МОД 7 -->
+    <div class="mod">
+        <div class="mod-title">Architectury</div>
+        <div class="mod-desc">Библиотека для модов.</div>
+        <a class="download-btn" href="architectury-13.0.2-fabric.jar" download>Скачать</a>
     </div>
 
-    <!-- === Cloth Config === -->
-    <div class="card">
-        <img src="https://i.imgur.com/gc1IzRF.png">
-        <div class="title">Cloth Config</div>
-        <div class="desc">Библиотека для меню настроек модов.</div>
-        <a class="btn" href="cloth-config-15.0.140-fabric.jar" download>Скачать</a>
+    <!-- МОД 8 -->
+    <div class="mod">
+        <div class="mod-title">Cloth Config</div>
+        <div class="mod-desc">Меню настроек модов.</div>
+        <a class="download-btn" href="cloth-config-15.0.140-fabric.jar" download>Скачать</a>
     </div>
 
-    <!-- === Fabric API === -->
-    <div class="card">
-        <img src="https://i.imgur.com/zETbBtw.png">
-        <div class="title">Fabric API</div>
-        <div class="desc">Главная библиотека для работы Fabric модов.</div>
-        <a class="btn" href="fabric-api-0.102.01.21.jar" download>Скачать</a>
+    <!-- МОД 9 -->
+    <div class="mod">
+        <div class="mod-title">Fabric API</div>
+        <div class="mod-desc">Главный API для модов Fabric.</div>
+        <a class="download-btn" href="fabric-api-0.102.01.21.jar" download>Скачать</a>
     </div>
 
-    <!-- === GJEB === -->
-    <div class="card">
-        <img src="https://i.imgur.com/hUP9LlG.png">
-        <div class="title">GJEB</div>
-        <div class="desc">Изменяет отображение гаммы и освещения.</div>
-        <a class="btn" href="gjeb-fabric-1.21-1.3.0.35.jar" download>Скачать</a>
+    <!-- МОД 10 -->
+    <div class="mod">
+        <div class="mod-title">GJEB</div>
+        <div class="mod-desc">Система эмоджи и анимаций.</div>
+        <a class="download-btn" href="gjeb-fabric-1.21-1.3.0.35.jar" download>Скачать</a>
     </div>
 
-    <!-- === Inventory HUD === -->
-    <div class="card">
-        <img src="https://i.imgur.com/cyIQNKR.png">
-        <div class="title">Inventory HUD</div>
-        <div class="desc">HUD отображающий инвентарь, броню и прочее.</div>
-        <a class="btn" href="inventoryhud.fabric.1.21-3.4.26.jar" download>Скачать</a>
+    <!-- МОД 11 -->
+    <div class="mod">
+        <div class="mod-title">Inventory HUD</div>
+        <div class="mod-desc">Отображение брони, эффектов и инвентаря.</div>
+        <a class="download-btn" href="inventoryhud.fabric.1.21-3.4.26.jar" download>Скачать</a>
     </div>
 
-    <!-- === Isometric Renders === -->
-    <div class="card">
-        <img src="https://i.imgur.com/z2Q7nBQ.png">
-        <div class="title">Isometric Renders</div>
-        <div class="desc">Изометрические скриншоты мира.</div>
-        <a class="btn" href="isometric-renders-0.4.7+1.21.jar" download>Скачать</a>
+    <!-- МОД 12 -->
+    <div class="mod">
+        <div class="mod-title">Isometric Renders</div>
+        <div class="mod-desc">Изометрические рендеры миров.</div>
+        <a class="download-btn" href="isometric-renders-0.4.7+1.21.jar" download>Скачать</a>
     </div>
 
-    <!-- === Malilib === -->
-    <div class="card">
-        <img src="https://i.imgur.com/jC6edgb.png">
-        <div class="title">Malilib</div>
-        <div class="desc">Библиотека для модов Masa.</div>
-        <a class="btn" href="malilib-fabric-1.21.1-0.21.0.jar" download>Скачать</a>
+    <!-- МОД 13 -->
+    <div class="mod">
+        <div class="mod-title">MaliLib</div>
+        <div class="mod-desc">Библиотека для модов Masa.</div>
+        <a class="download-btn" href="malilib-fabric-1.21.1-0.21.0.jar" download>Скачать</a>
     </div>
 
-    <!-- === Methane === -->
-    <div class="card">
-        <img src="https://i.imgur.com/HY5rZNh.png">
-        <div class="title">Methane</div>
-        <div class="desc">Оптимизация Minecraft, FPS буст.</div>
-        <a class="btn" href="methane-3.8.2-1.21.jar" download>Скачать</a>
-    </div>
-
-    <!-- === ModernFix === -->
-    <div class="card">
-        <img src="https://i.imgur.com/yx5cznJ.png">
-        <div class="title">ModernFix</div>
-        <div class="desc">Сильная оптимизация, уменьшение лагов.</div>
-        <a class="btn" href="modernfix-fabric-5.19.1-mc1.21.jar" download>Скачать</a>
-    </div>
-
-    <!-- === Mod Menu === -->
-    <div class="card">
-        <img src="https://i.imgur.com/mK9LtP2.png">
-        <div class="title">Mod Menu</div>
-        <div class="desc">Меню просмотра установленных модов.</div>
-        <a class="btn" href="modmenu-11.0.2.jar" download>Скачать</a>
-    </div>
-
-    <!-- === Owo Lib === -->
-    <div class="card">
-        <img src="https://i.imgur.com/8gGv8sL.png">
-        <div class="title">OWO Lib</div>
-        <div class="desc">Библиотека для UI и интерфейсов.</div>
-        <a class="btn" href="owo-lib-0.12.10+1.21.jar" download>Скачать</a>
-    </div>
-
-    <!-- === Sodium === -->
-    <div class="card">
-        <img src="https://i.imgur.com/NbKFYjs.png">
-        <div class="title">Sodium</div>
-        <div class="desc">Главный оптимизационный мод. +200 FPS.</div>
-        <a class="btn" href="sodium-fabric-0.5.11+mc1.21.jar" download>Скачать</a>
-    </div>
-
-    <!-- === Sodium Extra === -->
-    <div class="card">
-        <img src="https://i.imgur.com/dqaAPis.png">
-        <div class="title">Sodium Extra</div>
-        <div class="desc">Дополнительные настройки для Sodium.</div>
-        <a class="btn" href="sodium-extra-0.5.7+mc1.21.jar" download>Скачать</a>
+    <!-- МОД 14 -->
+    <div class="mod">
+        <div class="mod-title">Methane</div>
+        <div class="mod-desc">Оптимизация и прирост FPS.</div>
+        <a class="download-btn" href="methane-3.8.2-1.21.jar" download>Скачать</a>
     </div>
 
 </div>
