@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Minecraft Mods Download</title>
+<title>Minecraft Mods & Resource Packs</title>
 <style>
     body {
         background-color: #111;
@@ -11,202 +11,114 @@
         margin: 0;
         padding: 20px;
     }
-    h1 {
+    h1, h2 {
         text-align: center;
-        font-size: 32px;
         color: #ffa55b;
-        margin-bottom: 30px;
     }
-    .mod {
-        background: #1a1a1a;
-        padding: 20px;
-        margin-bottom: 15px;
-        border-radius: 10px;
-    }
-    .top {
+    .container {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        gap: 20px;
+        margin-top: 25px;
     }
-    .name {
-        font-size: 22px;
-        font-weight: bold;
+    table {
+        width: 50%;
+        background: #1a1a1a;
+        border-collapse: collapse;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    th, td {
+        border-bottom: 1px solid #333;
+        padding: 12px;
+        text-align: left;
+    }
+    th {
+        background: #222;
         color: #55ff55;
+        font-size: 20px;
     }
-    .desc {
-        margin-top: 10px;
-        color: #ccc;
-        font-size: 15px;
-        line-height: 1.4;
-    }
-    .download {
-        padding: 8px 14px;
-        background: #22cc55;
-        color: #000;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
+    a.download {
+        color: #22cc55;
         font-weight: bold;
+        text-decoration: none;
     }
-    .download:hover {
-        background: #33dd66;
+    a.download:hover {
+        color: #33dd66;
     }
 </style>
 </head>
 <body>
 
-<h1>🧱 Minecraft Mods Download</h1>
+<h1>🧱 Minecraft Mods & Resource Packs</h1>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">MacroKeybinds</div>
-        <a class="download" href="1.21-MacroKeybinds-fabric-1.3.1.jar">Скачать</a>
-    </div>
-    <div class="desc">Добавляет макросы и команды на клавиши.</div>
-</div>
+<div class="container">
 
-<div class="mod">
-    <div class="top">
-        <div class="name">CommandKeys</div>
-        <a class="download" href="CommandKeys-Fabric-1.21-2.0.0.jar">Скачать</a>
-    </div>
-    <div class="desc">Позволяет привязывать команды к кнопкам.</div>
-</div>
+    <!-- МОДЫ -->
+    <table>
+        <tr>
+            <th>Мод</th>
+            <th>Скачать</th>
+        </tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">IAS</div>
-        <a class="download" href="IAS-Fabric-1.21-9.0.1.jar">Скачать</a>
-    </div>
-    <div class="desc">Показывает информацию о предметах и блоках.</div>
-</div>
+        <tr><td>MacroKeybinds</td><td><a class="download" href="1.21-MacroKeybinds-fabric-1.3.1.jar">Скачать</a></td></tr>
+        <tr><td>CommandKeys</td><td><a class="download" href="CommandKeys-Fabric-1.21-2.0.0.jar">Скачать</a></td></tr>
+        <tr><td>IAS</td><td><a class="download" href="IAS-Fabric-1.21-9.0.1.jar">Скачать</a></td></tr>
+        <tr><td>OKZoomer</td><td><a class="download" href="OkZoomer-Fabric-9.3.0.jar">Скачать</a></td></tr>
+        <tr><td>ViaFabricPlus</td><td><a class="download" href="ViaFabricPlus-3.4.8.jar">Скачать</a></td></tr>
+        <tr><td>ViaVersion</td><td><a class="download" href="ViaVersion-5.0.4-SNAPSHOT%20(1).jar">Скачать</a></td></tr>
+        <tr><td>Architectury</td><td><a class="download" href="architectury-13.0.2-fabric.jar">Скачать</a></td></tr>
+        <tr><td>Cloth Config</td><td><a class="download" href="cloth-config-15.0.140-fabric.jar">Скачать</a></td></tr>
+        <tr><td>Fabric API</td><td><a class="download" href="fabric-api-0.102.01.21.jar">Скачать</a></td></tr>
+        <tr><td>GJEB</td><td><a class="download" href="gjeb-fabric-1.21-1.3.0.35.jar">Скачать</a></td></tr>
+        <tr><td>InventoryHUD</td><td><a class="download" href="inventoryhud.fabric.1.21-3.4.26.jar">Скачать</a></td></tr>
+        <tr><td>Isometric Renders</td><td><a class="download" href="isometric-renders-0.4.7+1.21.jar">Скачать</a></td></tr>
+        <tr><td>MaLiLib</td><td><a class="download" href="malilib-fabric-1.21.1-0.21.0.jar">Скачать</a></td></tr>
+        <tr><td>Methane</td><td><a class="download" href="methane-3.8.2-1.21.jar">Скачать</a></td></tr>
+        <tr><td>ModernFix</td><td><a class="download" href="modernfix-fabric-5.19.1-mc1.21.jar">Скачать</a></td></tr>
+        <tr><td>ModMenu</td><td><a class="download" href="modmenu-11.0.2.jar">Скачать</a></td></tr>
+        <tr><td>OwoLib</td><td><a class="download" href="owo-lib-0.12.10+1.21.jar">Скачать</a></td></tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">OkZoomer</div>
-        <a class="download" href="OkZoomer-Fabric-9.3.0.jar">Скачать</a>
-    </div>
-    <div class="desc">Продвинутый зум как в OptiFine.</div>
-</div>
+    </table>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">ViaFabricPlus</div>
-        <a class="download" href="ViaFabricPlus-3.4.8.jar">Скачать</a>
-    </div>
-    <div class="desc">Позволяет заходить на сервера других версий.</div>
-</div>
+    <!-- РЕСУРС ПАКИ -->
+    <table>
+        <tr>
+            <th>Ресурс пак</th>
+            <th>Скачать</th>
+        </tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">ViaVersion</div>
-        <a class="download" href="ViaVersion-5.0.4-SNAPSHOT%20(1).jar">Скачать</a>
-    </div>
-    <div class="desc">Основной мод совместимости версий.</div>
-</div>
+        <tr>
+            <td>Funtime Tals v5_1</td>
+            <td><a class="download" href="%21%20funtime%20tals%20v5_1.zip">Скачать</a></td>
+        </tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">Architectury</div>
-        <a class="download" href="architectury-13.0.2-fabric.jar">Скачать</a>
-    </div>
-    <div class="desc">Библиотека совместимости Forge/Fabric.</div>
-</div>
+        <tr>
+            <td>BestPvP1</td>
+            <td><a class="download" href="Bestpvp1.zip">Скачать</a></td>
+        </tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">Cloth Config</div>
-        <a class="download" href="cloth-config-15.0.140-fabric.jar">Скачать</a>
-    </div>
-    <div class="desc">Библиотека для настроек модов.</div>
-</div>
+        <tr>
+            <td>Fullbright UB</td>
+            <td><a class="download" href="Fullbright-UB-1.21%20fub-6.0.zip">Скачать</a></td>
+        </tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">Fabric API</div>
-        <a class="download" href="fabric-api-0.102.01.21.jar">Скачать</a>
-    </div>
-    <div class="desc">Главная библиотека Fabric — нужна всегда.</div>
-</div>
+        <tr>
+            <td>Mr.WHITE</td>
+            <td><a class="download" href="Mr.WHITE.zip">Скачать</a></td>
+        </tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">GJEB</div>
-        <a class="download" href="gjeb-fabric-1.21-1.3.0.35.jar">Скачать</a>
-    </div>
-    <div class="desc">Улучшенные элементы управления и геймпад.</div>
-</div>
+        <tr>
+            <td><b>ResourcePack by Jaguars1</b><br><span style="color:#ffa55b;">(Я играю с этим РП)</span></td>
+            <td><a class="download" href="ResourcePack%20by%20Jaguars1.zip">Скачать</a></td>
+        </tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">Inventory HUD</div>
-        <a class="download" href="inventoryhud.fabric.1.21-3.4.26.jar">Скачать</a>
-    </div>
-    <div class="desc">Показывает инвентарь прямо на экране.</div>
-</div>
+        <tr>
+            <td>Low On Fire</td>
+            <td><a class="download" href="lowonfire1.16.zip">Скачать</a></td>
+        </tr>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">Isometric Renders</div>
-        <a class="download" href="isometric-renders-0.4.7+1.21.jar">Скачать</a>
-    </div>
-    <div class="desc">Делает изометрические рендеры мира.</div>
-</div>
+    </table>
 
-<div class="mod">
-    <div class="top">
-        <div class="name">MaLiLib</div>
-        <a class="download" href="malilib-fabric-1.21.1-0.21.0.jar">Скачать</a>
-    </div>
-    <div class="desc">Библиотека для макросов и HUD модов.</div>
-</div>
-
-<div class="mod">
-    <div class="top">
-        <div class="name">Methane</div>
-        <a class="download" href="methane-3.8.2-1.21.jar">Скачать</a>
-    </div>
-    <div class="desc">Увеличивает FPS и оптимизирует игру.</div>
-</div>
-
-<div class="mod">
-    <div class="top">
-        <div class="name">ModernFix</div>
-        <a class="download" href="modernfix-fabric-5.19.1-mc1.21.jar">Скачать</a>
-    </div>
-    <div class="desc">Ускоряет загрузку мира и снижает лаги.</div>
-</div>
-
-<div class="mod">
-    <div class="top">
-        <div class="name">ModMenu</div>
-        <a class="download" href="modmenu-11.0.2.jar">Скачать</a>
-    </div>
-    <div class="desc">Добавляет меню модов в игру.</div>
-</div>
-
-<div class="mod">
-    <div class="top">
-        <div class="name">OwoLib</div>
-        <a class="download" href="owo-lib-0.12.10+1.21.jar">Скачать</a>
-    </div>
-    <div class="desc">Библиотека интерфейсов и UI модов.</div>
-</div>
-
-<div class="mod">
-    <div class="top">
-        <div class="name">Sodium Extra</div>
-        <a class="download" href="sodium-extra-0.5.7+mc1.21.jar">Скачать</a>
-    </div>
-    <div class="desc">Доп. настройки производительности.</div>
-</div>
-
-<div class="mod">
-    <div class="top">
-        <div class="name">Sodium</div>
-        <a class="download" href="sodium-fabric-0.5.11+mc1.21.jar">Скачать</a>
-    </div>
-    <div class="desc">Самый мощный FPS-бустер для Fabric.</div>
 </div>
 
 </body>
